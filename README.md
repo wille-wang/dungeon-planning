@@ -1,6 +1,6 @@
 # Dungeon Planning Problem
 
-This project defines a **round-based multi-hero dungeon planning problem** using a [Planning Domain Definition Language](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) (PDDL) model. The goal is to help multiple heroes escape from a dungeon filled with monsters, traps, and locked doors in the fewest number of turns. The dungeon is composed of connected rooms, and each hero must strategize to avoid monsters, disarm traps, and unlock doors to achieve their escape.
+This project defines a **round-based multi-hero dungeon planning problem** using a [Planning Domain Definition Language](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) (PDDL) model. The goal is to help multiple heroes escape from a dungeon filled with monsters, traps, and locked doors in the fewest number of rounds. The dungeon is composed of connected rooms, and each hero must strategize to avoid monsters, disarm traps, and unlock doors to achieve their escape.
 
 |     | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
