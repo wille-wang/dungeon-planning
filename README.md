@@ -11,15 +11,15 @@ This project defines a **round-based multi-hero dungeon planning problem** using
 
 ## Rules
 
-- The dungeon is a grid of connected rooms, where each room may contain a hero, monster, sword, key, locked door, trap, or be empty.
+- The dungeon is a grid of connected rooms, where each room may contain a hero 🦸‍♂️, monster 👾, sword 🗡️, key 🔑, locked door 🔒, trap 🪤, or be empty.
 - On each turn, a hero can perform one of the following actions:
   - Move to an adjacent empty room.
-  - Move to an adjacent room with a monster, only if the hero holds a sword.
-  - Move to an adjacent room with a locked door, only if the hero holds a key.
-  - Move to an adjacent room with a trap and disarm the trap, but only if the hero holds nothing.
-  - Pick up a sword or key if the hero is holding nothing.
-  - Throw a sword or key if the hero is holding one.
-  - Pass a sword or key to another hero in the same room.
+  - Move to an adjacent room with a monster 👾, only if the hero holds a sword 🗡️.
+  - Move to an adjacent room with a locked door 🔒, only if the hero holds a key 🔑.
+  - Move to an adjacent room with a trap 🪤 and disarm the trap, only if the hero holds nothing.
+  - Pick up a sword 🗡️ or key 🔑 if the hero is holding nothing.
+  - Throw a sword 🗡️ or key 🔑 if the hero is holding one.
+  - Pass a sword 🗡️ or key 🔑 to another hero 🦸‍♂️ in the same room.
   - Do nothing (if the hero has already escaped).
 - Once a hero leaves a room, that room is destroyed and becomes inaccessible for the remainder of the game.
 - The order in which heroes take their turns in a round is flexible, and once a hero escapes, they no longer participate in subsequent turns. Additionally, a hero may detour around the goal room as long as their total number of turns does not exceed those of the other heroes.
